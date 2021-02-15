@@ -6,6 +6,7 @@ import { CursosService } from './cursos.service';
   selector: 'app-cursos',
   templateUrl: './cursos.component.html',
   styleUrls: ['./cursos.component.css'],
+  providers: [CursosService],
 })
 export class CursosComponent implements OnInit {
   cursos: string[] = [];
